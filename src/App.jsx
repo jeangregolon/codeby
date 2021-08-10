@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
-import HomeScreen from './screens/HomeScreen';
+import HomeScreen from './screens/HomeScreen/HomeScreen';
 import Header from './components/Header/Header';
 
 function App() {
