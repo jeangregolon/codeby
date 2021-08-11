@@ -6,7 +6,7 @@
   padding-top: 10px;
 }
 
-button{
+.cart-button{
   border-radius: 4px;
   background-color: $secondary-color;
   color: white;
@@ -24,7 +24,7 @@ button{
   }
 }
 
-button:hover{
+.cart-button:hover{
   color: $secondary-color;
   background-color: white;
 }
