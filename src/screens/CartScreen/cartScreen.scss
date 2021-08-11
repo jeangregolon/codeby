@@ -1,0 +1,60 @@
+@import '../../index.scss';
+
+.container{
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 71px);
+
+}
+
+.title{
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid $shadow-color;  
+}
+
+.total-n-shipping{
+  border-top: 1px solid $shadow-color;
+  border-bottom: 1px solid $shadow-color;
+  padding: 1rem;
+}
+
+.total-price{
+  display: flex;
+  justify-content: space-between;
+
+  span{
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+}
+
+.free-shipping{
+  background-color: $olive;
+  color: $secondary-color;
+  padding: 0.5rem;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.finish-btn{
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin: auto;
+  background-color: $tertiary-color;
+  font-weight: 600;
+  border: none;
+}
+
+.finish-btn:hover{
+  background-color: $tertiary-color-faded;
+}
