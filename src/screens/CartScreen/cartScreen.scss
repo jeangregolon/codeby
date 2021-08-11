@@ -59,3 +59,32 @@
 .finish-btn:hover{
   background-color: $tertiary-color-faded;
 }
+
+.row{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.cart-button{
+  border-radius: 4px;
+  background-color: $secondary-color;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid $secondary-color;
+  margin: 0 10px;
+
+  div{
+    font-size: 0.7rem;
+  }
+}
+
+.cart-button:hover{
+  color: $secondary-color;
+  background-color: white;
+}
