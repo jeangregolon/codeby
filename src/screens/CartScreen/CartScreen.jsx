@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import ProductCard from '../../components/ProductCard/ProductCard'
 import './cartScreen.scss'
 
 export default function CartScreen(){
@@ -8,10 +8,10 @@ export default function CartScreen(){
   return(
     <div className='container'>
       <h1 className='title'>Meu carrinho</h1>
-      <h3>Card</h3>
-      <h3>Card</h3>
-      <h3>Card</h3>
-      <h3>Card</h3>
+      <ProductCard/>
+      <ProductCard/>
+      <ProductCard/>
+      <ProductCard/>
       <div className='total-n-shipping'>
         <div className='total-price'>
           <span>Total</span>
